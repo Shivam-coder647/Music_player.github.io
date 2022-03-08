@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>my music player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="main_div">
+	<div class="music_container">
+		<h2 id="title"></h2>
+		<h3 id="artist"></h3>
+		<div class="img_container">
+			<img src="">
+		</div>
+		<audio src=""></audio>
+		<!--progress bar-->
+		<div class="progressbar_container" id="progressbar_container">
+			<div class="progress_duration meter">
+				<span id="current_time"></span>
+				<span id="duration"></span>
+			</div>
+			<div class="progress_div" id="progress_div">
+				<div class="progress" id="progress"></div>
+			</div>
+		</div>
+		<!--controls-->
+		<div class="music_controls">
+			<i class="fa-solid fa-2x fa-backward" id="prev" title="Previous"></i>
+			<i class="fa-solid fa-2x fa-circle-play" id="play" title="play"></i>
+			<i class="fa-solid fa-2x fa-forward" id="next" title="next"></i>
+			<i class="fa-solid fa-2x fa-list-ul" id="more-music"></i>
+	</div>
+	<div class="music_list">
+		<div class="header">
+			<div class="row">
+                 <i class="fa-solid  fa-list-ul" id="more-music"></i>
+				<span>Music list</span>
+			</div>
+			<i class="fa-solid fa-xmark" id="close"></i>
+		</div>
+		<ul id="ul">
+			
+		</ul>
+	</div>
+</div>
+<script src="https://kit.fontawesome.com/bbd8a25e0e.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js">
+</script>
+</body>
+</ht
